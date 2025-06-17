@@ -20,9 +20,9 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
                                             } ?>" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php if ($page == '#') {
+                        <a class="nav-link <?php if ($page == 'about-us') {
                                                 echo 'active';
-                                            } ?>" href="#">About Us</a>
+                                            } ?>" href="about-us">About Us</a>
                     </li>
                     <li class="nav-item dropdown navdesktop">
                         <a class="nav-link <?php if ($page == '#') {
@@ -37,15 +37,15 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
                             <li><a class="dropdown-item" href="#">RV Report</a></li>
                         </ul>
                     </li>
-                    
+
                     <li class="nav-item">
-                        <a class="nav-link <?php if ($page == '#') {
+                        <a class="nav-link <?php if ($page == 'faq') {
                                                 echo 'active';
-                                            } ?>" href="#">
+                                            } ?>" href="faq">
                             Faq
                         </a>
                     </li>
-              
+
                     <li class="nav-item">
                         <a class="nav-link <?php if ($page == '#') {
                                                 echo 'active';

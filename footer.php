@@ -3,61 +3,59 @@
         <div class="row mt-0 pt-4 pb-4">
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 <div class="footer-logo">
-                    <a href="#"><img src="assets/images/footer-logo.png" /></a>
-                    <p>Content Goes Here Content Goes Here Content Goes Here Content Goes Here
-                        Content Goes Here Content Goes Here Content Goes Here Content Goes Here
-                        Content Goes Here Content Goes Here Content Goes Here.
-                    </p>
+                    <a class="navbar-brand logo" href="#">
+                        <img src="assets/images/logo.png" />
+                    </a>
+
                 </div>
             </div>
             <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-xs-12">
                 <div class="footer-links m-mt-40">
                     <h6>Quick Links</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#"> Links</a></li>
-                        <li><a href="#"> Links</a></li>
-                        <li><a href="#"> Links</a></li>
-                        <li><a href="#"> Links</a></li>
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#"> About Us</a></li>
+                        <li><a href="#"> Vehicle Report</a></li>
+                        <li><a href="#"> FAQ'S</a></li>
+                        <li><a href="#"> Contact Us</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
                 <div class="footer-links m-mt-40">
-                    <h6>Contact</h6>
+                    <h6>Services</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#"> 213 567 4610</a></li>
-                        <li><a href="#"> Start Live Chat</a></li>
-                        <li><a href="mailto:info@example.com"> info@example.com</a></li>
-                        <li><a href="#"> 407 Lincoln Rd St 6H Miami Beach, FL 33139</a></li>
+                        <li><a href="#"> Bike Report</a></li>
+                        <li><a href="#"> Car Report</a></li>
+                        <li><a href="mailto:info@example.com">HD Truck Report</a></li>
+                        <li><a href="#">RV Report</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                <div class="animate-zoom">
-                    <img src="assets/images/a-img.png" class="img-fluid">
+                <div class="footer-links m-mt-40">
+                    <h6>Contact us</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#"> support@vehicleresult.com</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <hr>
-        <div class="row align-items-center mt-0 pt-2 pb-2">
-            <div class="col-xl-6 col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                <div class="footer-bootom-links">
-                    <span>Copyright © 2022-2023 Website Name . All rights reserved.</span>
 
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                <div class="social text-end">
-                    <p class="mb-0">
-                        <a target="_blank" aria-label="Facebook" href="#"><i
-                                class="fa fa-facebook-official"></i></a>
-                        <a target="_blank" aria-label="Youtube" href="#"><i class="fa fa-linkedin"></i></a>
-                    </p>
-                </div>
+    </div>
+</footer>
+<div class="footer-bootom">
+    <div class="container">
+        <div class="footer-bootom-main">
+            <p>VehicleResult.com All Right Reserved 2024 Copyright</p>
+            <div class="footer-bottom-links">
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & conditions</a>
+                <a href="">Disclaimer</a>
             </div>
         </div>
     </div>
-</footer>
+</div>
 <!-- end -->
 
 <!-- Website JS -->

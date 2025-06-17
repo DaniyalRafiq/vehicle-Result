@@ -537,6 +537,8 @@ input::-webkit-inner-spin-button {
   padding-top: 35px;
   padding-bottom: 25px;
   background: #000001;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #050505 0%, #111111 100%);
 }
 
 .footer-logo p {
@@ -546,10 +548,14 @@ input::-webkit-inner-spin-button {
 }
 
 .footer-links>h6 {
-  color: var(--secondary);
+  color: var(--primary);
   font-size: 1.2rem;
   margin-bottom: 0;
   margin-top: 20px;
+  font-family: var(--font-600);
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .footer-links>p {
@@ -560,7 +566,10 @@ input::-webkit-inner-spin-button {
 }
 
 .footer-links>ul {
-  padding-left: 18px;
+  margin: 0;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
 }
 
 .footer-links>ul>li {
@@ -577,9 +586,10 @@ input::-webkit-inner-spin-button {
 .footer-links>ul>li>a {
   text-decoration: none;
   font-size: 1rem;
-  color: white;
+  color: #ffffffbf;
   font-weight: 400;
   transition: all ease-in-out 0.3s;
+  font-family: var(--font-600);
 }
 
 .footer-links>ul>li>a:hover {
@@ -739,7 +749,7 @@ ul.dropdown-menu {
   padding-top: 250px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  /* height: 100vh; */
 }
 
 .hero-content h1,
@@ -1006,4 +1016,202 @@ section.testi {
 .testi-card-name span {
   color: var(--secondary);
   font-family: var(--font-600);
+}
+
+footer.footer a.navbar-brand.logo {
+  width: 310px;
+  display: flex;
+  margin: auto;
+}
+
+.footer-links>h6:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30%;
+  height: 3px;
+  background: var(--secondary);
+}
+
+.footer-links {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-links>ul>li {
+  list-style: none;
+  padding: 0;
+}
+
+
+.footer-links>ul>li>a:hover {
+  color: var(--primary);
+}
+
+.footer-logo {
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bootom {
+  background: var(--secondary);
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-bootom p {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+}
+
+.footer-bootom-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-bottom-links {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.footer-bottom-links a {
+  color: white;
+}
+
+.footer-bottom-links a:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+
+.footer-bottom-links a:hover {
+  color: var(--primary);
+}
+
+.other-header header {
+  box-shadow: none;
+}
+
+section.hero.other-page-hero .hero-content {
+  padding: 0;
+  background: none;
+  text-align: center;
+}
+
+.about-us-hero {
+  background-image: url(../images/about-us-hero.jpg);
+}
+
+section.hero.other-page-hero.about-us-hero {
+  padding-bottom: 150px;
+}
+
+.about-us-con-sec,
+.faq-hero {
+  background-image: url(../images/about-us-con-sec.jpg);
+}
+
+.hero.other-page-hero {
+  padding-bottom: 150px;
+}
+
+.main-heading-span {
+  position: relative;
+  padding: 0 14px;
+  margin-bottom: 5px;
+}
+
+.main-heading-span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 1px;
+  background: var(--primary);
+  z-index: 1;
+}
+
+.main-heading-span h6 {
+  background: white;
+  padding: 0 4px;
+  color: var(--primary);
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0;
+  font-size: 22px;
+  z-index: 2;
+  position: relative;
+  line-height: 1;
+}
+
+.about-us-section-heading {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.accordion-flush .accordion-item {
+  margin-bottom: 16px;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+  border: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  background: var(--secondary);
+  color: white;
+  box-shadow: none;
+}
+
+.faq .accordion-button::after {
+  content: "+";
+  background: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "-";
+}
+
+.faq .about-us-section-heading {
+  margin-bottom: 21px;
+}
+
+.faq_heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  align-items: flex-start;
+  font-weight: 700;
+  box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.05);
+}
+
+section.faq .img-box-content {
+  height: 610px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section.faq .row {
+  align-items: center;
 }
