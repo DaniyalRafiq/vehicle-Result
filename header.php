@@ -4,7 +4,7 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
 <header class="header">
     <nav class="navbar navbar-expand-xl navbar-dark stroke bg-transparent">
         <div class="container">
-            <a class="navbar-brand logo" href="#">
+            <a class="navbar-brand logo" href="#" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
                 <img src="assets/images/logo.png" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -14,40 +14,39 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="100" data-aos-duration="500">
                         <a class="nav-link <?php if ($page == 'index') {
                                                 echo 'active';
                                             } ?>" href="index">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="200" data-aos-duration="500">
                         <a class="nav-link <?php if ($page == 'about-us') {
                                                 echo 'active';
                                             } ?>" href="about-us">About Us</a>
                     </li>
-                    <li class="nav-item dropdown navdesktop">
-                        <a class="nav-link <?php if ($page == 'bike-report' || $page == `car-report`) {
-                                                echo 'active';
-                                            } ?>" href="#">
+                    <li class="nav-item dropdown navdesktop" data-aos="fade-down" data-aos-delay="300" data-aos-duration="500">
+                        <?php
+                        $servicesPages = ['bike-report', 'car-report', 'hd-truck-report', 'rv-report'];
+                        $isServicesActive = in_array($page, $servicesPages);
+                        ?>
+                        <a class="nav-link dropdown-toggle <?php if ($isServicesActive) echo 'active'; ?>"
+                            href="#"
+                            id="navbarDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Services <i class="ri-arrow-down-s-fill"></i>
                         </a>
-                        <ul class="dropdown-menu dropdown-navdesktop" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item <?php if ($page == 'bike-report') {
-                                                            echo 'active';
-                                                        } ?>" href="bike-report">Bike Report</a></li>
-                            <li><a class="dropdown-item <?php if ($page == 'car-report') {
-                                                            echo 'active';
-                                                        } ?>" href="car-report">Car Report</a></li>
-                            <li><a class="dropdown-item <?php if ($page == 'hd-truck-report') {
-                                                            echo 'active';
-                                                        } ?>" href="hd-truck-report">HD Truck Repor</a></li>
-                            <li><a class="dropdown-item <?php if ($page == 'rv-report') {
-                                                            echo 'active';
-                                                        } ?>" href="rv-report">RV Report</a></li>
 
+                        <ul class="dropdown-menu dropdown-navdesktop" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item <?php if ($page == 'bike-report') echo 'active'; ?>" href="bike-report">Bike Report</a></li>
+                            <li><a class="dropdown-item <?php if ($page == 'car-report') echo 'active'; ?>" href="car-report">Car Report</a></li>
+                            <li><a class="dropdown-item <?php if ($page == 'hd-truck-report') echo 'active'; ?>" href="hd-truck-report">HD Truck Report</a></li>
+                            <li><a class="dropdown-item <?php if ($page == 'rv-report') echo 'active'; ?>" href="rv-report">RV Report</a></li>
                         </ul>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="400" data-aos-duration="500">
                         <a class="nav-link <?php if ($page == 'faq') {
                                                 echo 'active';
                                             } ?>" href="faq">
@@ -55,7 +54,7 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
                         </a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item" data-aos="fade-down" data-aos-delay="500" data-aos-duration="500">
                         <a class="nav-link <?php if ($page == 'contact-us') {
                                                 echo 'active';
                                             } ?>" href="contact-us">
@@ -82,46 +81,46 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
                 </button>
             </div>
 
-            <div class="modal-body">
-                <form method="POST" action="submit_order.php" id="orderForm" novalidate>
+            <form method="POST" action="submit_order.php" id="orderForm" novalidate>
+                <div class="modal-body">
                     <div class="row g-3">
                         <!-- Full Name -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-4 col-md-6">
                             <label class="form-label">Full Name</label>
                             <input type="text" name="full_name" class="form-control" placeholder="Enter your full name" required>
                             <div class="invalid-feedback">Full name is required.</div>
                         </div>
 
                         <!-- Email -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-4 col-md-6">
                             <label class="form-label">Email</label>
                             <input type="email" name="email" class="form-control" placeholder="Enter your email address" required>
                             <div class="invalid-feedback">Please enter a valid email address.</div>
                         </div>
 
                         <!-- Phone -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-4 col-md-6">
                             <label class="form-label">Phone</label>
                             <input type="tel" name="phone" class="form-control" placeholder="e.g. 123-456-7890" pattern="[\d\s\-]+" required>
                             <div class="invalid-feedback">Please enter a valid phone number.</div>
                         </div>
 
                         <!-- Vehicle Name -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-4 col-md-6">
                             <label class="form-label">Name of Vehicle</label>
                             <input type="text" name="vehicle_name" class="form-control" placeholder="Enter vehicle name or model" required>
                             <div class="invalid-feedback">Vehicle name is required.</div>
                         </div>
 
                         <!-- VIN Number -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-4 col-md-6">
                             <label class="form-label">VIN Number</label>
                             <input type="text" name="vin_number" class="form-control" placeholder="Enter VIN number" required>
                             <div class="invalid-feedback">VIN number must be at least 5 characters.</div>
                         </div>
 
                         <!-- Select Plan -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-4 col-md-6">
                             <label class="form-label">Select Package</label>
                             <select id="planSelect" name="package" class="form-select form-control" required>
                                 <option selected disabled value="">Choose a package</option>
@@ -154,13 +153,14 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
                     </div>
 
                     <!-- Submit -->
-                    <div class="text-center mt-4">
-                        <button type="submit" class="btn-theme">Submit Order</button>
-                    </div>
-                </form>
 
 
-            </div>
+
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="submit" form="orderForm" class="btn-theme">Submit Order</button> <!-- Button outside form -->
+                </div>
+            </form>
         </div>
     </div>
 </div>

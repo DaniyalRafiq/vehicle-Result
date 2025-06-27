@@ -275,7 +275,7 @@ p {
 }
 
 .navbar-nav .nav-link::after {
-  background: none repeat scroll 0 0 transparent;
+  /* background: none repeat scroll 0 0 transparent; */
   bottom: 0;
   content: "";
   display: block;
@@ -285,12 +285,16 @@ p {
   background: var(--primary);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+  opacity: 0;
+  border: 0;
+  margin: 0;
 }
 
 .navbar-nav .nav-link:hover::after,
 .navbar-nav .nav-link.active::after {
   width: 100%;
   left: 0;
+  opacity: 1;
 }
 
 
@@ -752,11 +756,14 @@ ul.dropdown-menu {
 
 .hero {
   background-image: url(../images/hero-bg.png);
-  padding-top: 250px;
+  /* padding-top: 250px; */
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 100vh; */
+  height: 100vh;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-content h1,
@@ -1130,6 +1137,8 @@ section.hero.other-page-hero.about-us-hero {
 
 .hero.other-page-hero {
   padding-bottom: 150px;
+  height: auto;
+  padding-top: 220px;
 }
 
 .main-heading-span {
@@ -1638,4 +1647,64 @@ section.find-out.value .sec-01-main.value-main {
 
 .modal-content {
   border-radius: 20px;
+}
+
+.home-testi {
+  padding-top: 50px;
+}
+
+.offcanvas-header .btn-close {
+  top: 50px;
+  right: 30px;
+}
+
+.offcanvas .navbar-nav .dropdown-menu {
+  flex-direction: column;
+  display: none;
+  align-items: center;
+  text-align: center;
+}
+
+.offcanvas-body ul.navbar-nav {
+  align-items: flex-start;
+  gap: 20px;
+}
+
+ul.dropdown-menu.show {
+  display: flex;
+}
+
+.offcanvas .navbar-nav .dropdown-menu li {
+  margin: 0;
+}
+
+.offcanvas .navbar-nav .dropdown-menu li {
+  padding: 0;
+}
+
+
+.offcanvas-body li.nav-item.dropdown a {
+  margin-bottom: 7px;
+  padding-bottom: 5px;
+}
+
+.offcanvas-body li.nav-item.dropdown ul.dropdown-menu {
+  position: absolute;
+  left: 0;
+  transform: none;
+  margin-top: -4px;
+}
+
+.offcanvas-body li.nav-item.dropdown a:after {
+  margin: 0;
+  background: var(--primary);
+  z-index: 552;
+}
+
+.hero .img-box-content {
+  height: 760px;
+}
+
+section.testi.home-testi {
+  padding-top: 50px;
 }

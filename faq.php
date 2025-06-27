@@ -17,7 +17,7 @@
     <!-- section banner -->
     <section class="hero other-page-hero faq-hero">
         <div class="container">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">
                 <h1>Frequently Asked <span>Questions</span></h1>
             </div>
         </div>
@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="about-us-section-heading ">
+                    <div class="about-us-section-heading " data-aos="fade-right" data-aos-delay="0" data-aos-duration="500">
                         <div class="main-heading-span">
                             <h6>FAQ’s</h6>
                         </div>
@@ -35,12 +35,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="img-box-content">
+                    <div class="img-box-content" data-aos="fade-right" data-aos-delay="200" data-aos-duration="500">
                         <img src="assets/images/faq-img.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion accordion-flush" data-aos="fade-left" data-aos-delay="400" data-aos-duration="500" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">

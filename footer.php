@@ -77,48 +77,58 @@
 <!-- Offcanvas Side Bar -->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
     <div class="offcanvas-header">
-        <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <a class="navbar-brand logo" href="#">
+            <img src="assets/images/logo.png">
+        </a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="ri-close-line"></i>
+        </button>
     </div>
     <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <?php
+        // Example: Set this at the top of each page before including the header
+        // $page = 'bike-report'; // for example
+        ?>
+
+        <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link <?php if ($page == 'index') echo 'active'; ?>" href="index">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link <?php if ($page == 'about-us') echo 'active'; ?>" href="about-us">About Us</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+
+            <li class="nav-item dropdown navdesktop">
+                <?php
+                $servicesPages = ['bike-report', 'car-report', 'hd-truck-report', 'rv-report'];
+                $isServicesActive = in_array($page, $servicesPages);
+                ?>
+                <a class="nav-link dropdown-toggle <?php if ($isServicesActive) echo 'active'; ?>"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    Services <i class="fa fa-angle-down"></i>
+                    Services <i class="ri-arrow-down-s-fill"></i>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Service 1</a></li>
-                    <li><a class="dropdown-item" href="#">Service 2</a></li>
-                    <li><a class="dropdown-item" href="#">Service 3</a></li>
-                    <li><a class="dropdown-item" href="#">Service 4</a></li>
+
+                <ul class="dropdown-menu dropdown-navdesktop" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item <?php if ($page == 'bike-report') echo 'active'; ?>" href="bike-report">Bike Report</a></li>
+                    <li><a class="dropdown-item <?php if ($page == 'car-report') echo 'active'; ?>" href="car-report">Car Report</a></li>
+                    <li><a class="dropdown-item <?php if ($page == 'hd-truck-report') echo 'active'; ?>" href="hd-truck-report">HD Truck Report</a></li>
+                    <li><a class="dropdown-item <?php if ($page == 'rv-report') echo 'active'; ?>" href="rv-report">RV Report</a></li>
                 </ul>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Pricing
-                </a>
+                <a class="nav-link <?php if ($page == 'faq') echo 'active'; ?>" href="faq">Faq</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Blog
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Contact Us
-                </a>
-            </li>
+
+
         </ul>
-        <div class="mt-3">
-            <a href="#" class="btn btn-theme-outline">Live Chat</a> <br><br>
-            <a href="#" class="btn btn-theme">Join For Free</a>
+
+        <div class="mt-5">
+            <a href="contact-us" class="btn btn-theme">Contact Us</a>
         </div>
     </div>
 </div>

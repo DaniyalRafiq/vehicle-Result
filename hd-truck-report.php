@@ -17,7 +17,7 @@
     <!-- section banner -->
     <section class="hero other-page-hero about-us-hero">
         <div class="container">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">
                 <h1>Get HD Truck <br> <span>Vehicle Report</span></h1>
             </div>
         </div>
@@ -31,7 +31,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <div class="result-content ser-page-content">
+                    <div class="result-content ser-page-content" data-aos="fade-right" data-aos-delay="0" data-aos-duration="500">
                         <span>FEEL THE SATISFACTION</span>
                         <h2 class="main-heading"><span>Get VEHICLER RESULT </span> to save <br> your money before buying and selling</h2>
                         <p>Gain access to comprehensive local and international vehicle histories with just a click – don’t let hidden surprises compromise your investment in a used car.</p>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="resul-mask">
+                    <div class="resul-mask" data-aos="fade-left" data-aos-delay="400" data-aos-duration="500">
 
                         <div class="result-swiper swiper">
                             <div class="swiper-wrapper">
@@ -81,19 +81,19 @@
 
     <section class="find-out">
         <div class="container">
-            <div class="find-out-heading">
+            <div class="find-out-heading" data-aos="fade-up" data-aos-delay="00" data-aos-duration="500">
                 <h2 class="main-heading text-white text-center">How to find out how <br> much your Bike is worth</h2>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-12">
-                    <div class="find-out-card">
+                    <div class="find-out-card" data-aos="fade-right" data-aos-delay="00" data-aos-duration="500">
                         <h4>Tell us about your Bike</h4>
                         <p>By leveraging our cutting-edge data analysis, we can accurately identify your vehicle and provide a market value estimate based on the latest sales trends for your specific model.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="img-box-content">
+                    <div class="img-box-content" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <img src="assets/images/find-out-card-img-1.png" alt="">
                     </div>
                 </div>
@@ -101,14 +101,14 @@
             <div class="row">
 
                 <div class="col-lg-8 col-md-12">
-                    <div class="find-out-card">
+                    <div class="find-out-card" data-aos="fade-right" data-aos-delay="00" data-aos-duration="500">
                         <h4>Discover insights about your bike’s value</h4>
                         <p>Vehicleresult analyzes recent trends and patterns from similar vehicles sold in the past few months, providing you with a more accurate and up-to-date market value assessment for your bike model.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="img-box-content">
+                    <div class="img-box-content" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <img src="assets/images/find-out-card-img-2.png" alt="">
                     </div>
                 </div>
@@ -116,14 +116,14 @@
             <div class="row">
 
                 <div class="col-lg-8 col-md-12">
-                    <div class="find-out-card">
+                    <div class="find-out-card" data-aos="fade-right" data-aos-delay="00" data-aos-duration="500">
                         <h4>We offer more than just market value</h4>
                         <p>Our model-specific trade-in values help you determine the best possible price for your vehicle, whether you’re selling privately or to dealerships, ensuring you get the most value for your bike.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="img-box-content">
+                    <div class="img-box-content" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <img src="assets/images/find-out-card-img-3.png" alt="">
                     </div>
                 </div>
@@ -136,7 +136,7 @@
     <section class="plan">
         <div class="container">
             <div class="plan-heading">
-                <h2 class="main-heading">
+                <h2 class="main-heading" data-aos="fade-up" data-aos-delay="00" data-aos-duration="500">
                     Choose the best plan that fit for you
                 </h2>
             </div>
@@ -144,7 +144,7 @@
                 <?php
                 $plans = [
                     [
-                        'name' => 'Silver',
+                        'name' => 'Silver Elite',
                         'price' => '$50.99',
                         'delivery' => '2-4 HOURS',
                         'features' => [
@@ -158,7 +158,7 @@
                         ]
                     ],
                     [
-                        'name' => 'Gold',
+                        'name' => 'Gold Deluxe',
                         'price' => '$65.99',
                         'delivery' => '60 minutes',
                         'features' => [
@@ -173,7 +173,7 @@
                         ]
                     ],
                     [
-                        'name' => 'Diamond',
+                        'name' => 'Platinum',
                         'price' => '$45.99',
                         'delivery' => '12-24 HOURS',
                         'features' => [
@@ -197,7 +197,7 @@
                     $id = strtolower(str_replace(' ', '-', $plan['name']));
                 ?>
                     <div class="col-lg-4 col-md-12">
-                        <div class="plan-card">
+                        <div class="plan-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                             <div class="plan-card-top"
                                 data-bs-toggle="modal"
                                 data-bs-target="#orderModal"
@@ -234,14 +234,14 @@
 
     <section class="find-out value">
         <div class="container">
-            <div class="value-heading">
+            <div class="value-heading" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                 <h2 class="main-heading">Why is Your Bike's Market Value Important?</h2>
                 <p>Knowing a vehicle’s worth is important for both buyers and sellers alike.</p>
             </div>
             <div class="sec-01-main value-main">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="sec-01-card">
+                        <div class="sec-01-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                             <i class="ri-riding-line"></i>
                             <p>
                                 Avoid overpaying for your next vehicle purchase. Having an accurate market value estimate equips you with the leverage you need to negotiate confidently.
@@ -249,7 +249,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="sec-01-card">
+                        <div class="sec-01-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                             <i class="ri-money-dollar-circle-fill"></i>
                             <p>
                                 Don't risk losing potential buyers by overpricing your vehicle. A market value estimate ensures you sell quickly at a fair and competitive price.
@@ -257,7 +257,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="sec-01-card">
+                        <div class="sec-01-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                             <i class="ri-key-fill"></i>
                             <p>
                                 Your car is one of your most valuable assets. By monitoring its value over time, you stay informed about market fluctuations and can make smarter decisions regarding its future.
@@ -270,16 +270,18 @@
     </section>
 
 
+
+
     <!-- Testi Start -->
     <section class="testi service-section">
         <div class="container">
-            <div class="test-heading">
+            <div class="test-heading" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                 <h2 class="main-heading">WHAT OUR CLIENTS SAY</h2>
                 <p>Find out what our respected customers think about their interaction with Vehicle Result. From new car owners to experienced car lovers, our customers talk about their feelings of assurance, reliability, and contentment.</p>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -289,7 +291,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -299,7 +301,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -309,7 +311,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -319,7 +321,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -329,7 +331,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -342,6 +344,8 @@
         </div>
     </section>
     <!-- Testi  end-->
+
+
 
     <!-- section partner -->
     <?php //include "partners.php"

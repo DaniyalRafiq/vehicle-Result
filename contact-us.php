@@ -17,7 +17,7 @@
     <!-- section banner -->
     <section class="hero other-page-hero contact-hero">
         <div class="container">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">
                 <h1>CONTACT<span> US</span></h1>
             </div>
         </div>
@@ -27,17 +27,17 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 col-md-10">
-                    <div class="center-heading">
+                    <div class="center-heading" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                         <h2 class="main-heading">Get In Touch</h2>
                         <p>Fringilla placerat condimentum facilisis mauris nibh cursus feugiat libero nulla. Consectetur
                             eget tempor nulla dolor pellentesque et eu proin. Augue nulla ipsum sed aliquam. </p>
                     </div>
                 </div>
             </div>
-            <div class="get-quote-bg">
+            <div class="get-quote-bg" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="left-col">
+                        <div class="left-col" data-aos="fade-right" data-aos-delay="400" data-aos-duration="500">
                             <h3>Contact Information</h3>
                             <div class="info-innner">
                                 <i class="ri-phone-fill"></i>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="right-col">
+                        <div class="right-col" data-aos="fade-left" data-aos-delay="600" data-aos-duration="500">
                             <form method="POST" action="signup" class="needs-validation" novalidate="">
                                 <div class="row">
                                     <div class="col-md-6">

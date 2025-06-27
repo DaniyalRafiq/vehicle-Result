@@ -19,14 +19,14 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <div class="hero-content">
+                    <div class="hero-content " data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">
                         <h1>Vehicle <span>Result</span></h1>
                         <p>Guarantee trust in each sale with our reliable, precise car history reports. Confirm with accuracy, market with confidence.</p>
                         <a href="" class="btn-theme">Check Your Vin</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="img-box-content">
+                    <div class="img-box-content" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="10000">
                         <img src="assets/images/hero-img.png" alt="">
                     </div>
                 </div>
@@ -40,7 +40,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12 col-lg-6">
-                    <div class="out-come-content">
+                    <div class="out-come-content" data-aos="fade-right" data-aos-delay="00" data-aos-duration="500">
                         <h2 class="main-heading">What is the Reason <br>
                             for Choosing Vehicle Outcome</h2>
                         <p>VehicleResult is the top choice for car sellers and VIN checkers when it comes to vehicle history reports. This is the reason:</p>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-6">
-                    <div class="img-box-content">
+                    <div class="img-box-content" data-aos="fade-left" data-aos-delay="200" data-aos-duration="500">
                         <img src="assets/images/outcome-img.png" alt="">
                     </div>
                 </div>
@@ -66,7 +66,7 @@
             <div class="sec-01-main">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="sec-01-card">
+                        <div class="sec-01-card" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                             <div class="img-box-content">
                                 <img src="assets/images/sec-01-card-1.png" alt="">
                             </div>
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="sec-01-card">
+                        <div class="sec-01-card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
                             <div class="img-box-content">
                                 <img src="assets/images/sec-01-card-2.svg" alt="">
                             </div>
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="sec-01-card">
+                        <div class="sec-01-card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">
                             <div class="img-box-content">
                                 <img src="assets/images/sec-01-card-3.svg" alt="">
                             </div>
@@ -103,7 +103,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
-                    <div class="provide-content">
+                    <div class="provide-content" data-aos="fade-right" data-aos-delay="0" data-aos-duration="500">
                         <h2 class="main-heading">
                             We Provide All <br>Vehicle History Report
                         </h2>
@@ -115,7 +115,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a href="#" class="provide-card">
+                            <a href="#" class="provide-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                                 <div class="img-box-content">
                                     <img src="assets/images/provide-img-1.png" alt="">
                                 </div>
@@ -123,7 +123,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a href="#" class="provide-card">
+                            <a href="#" class="provide-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                                 <div class="img-box-content">
                                     <img src="assets/images/provide-img-2.png" alt="">
                                 </div>
@@ -131,7 +131,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a href="#" class="provide-card">
+                            <a href="#" class="provide-card" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
                                 <div class="img-box-content">
                                     <img src="assets/images/provide-img-3.png" alt="">
                                 </div>
@@ -139,7 +139,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a href="#" class="provide-card">
+                            <a href="#" class="provide-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                                 <div class="img-box-content">
                                     <img src="assets/images/provide-img-4.png" alt="">
                                 </div>
@@ -157,12 +157,12 @@
     <!-- Advantages  -->
     <section class="advantages">
         <div class="container">
-            <div class="advantages-heading">
+            <div class="advantages-heading" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                 <h2 class="main-heading">Vehicle Result Advantages</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="sec-01-card advantage-card">
+            <div class="row justify-content-center ">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="sec-01-card advantage-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <div class="img-box-content">
                             <img src="assets/images/advantages-icon-1.svg" alt="">
                         </div>
@@ -170,8 +170,8 @@
                         <p>Save thousands of dollars on your next vehicle purchase! Discover unbeatable deals on a wide range of cars, trucks, and SUVs, all priced to fit your budget.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="sec-01-card advantage-card">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="sec-01-card advantage-card" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
                         <div class="img-box-content">
                             <img src="assets/images/advantages-icon-2.svg" alt="">
 
@@ -180,8 +180,8 @@
                         <p>Stay secure on the road with top-rated vehicles designed for your safety. Our selection features the latest models equipped with advanced safety technologies. </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="sec-01-card advantage-card">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="sec-01-card advantage-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <div class="img-box-content">
                             <img src="assets/images/advantages-icon-3.svg" alt="">
 
@@ -200,7 +200,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
-                    <div class="result-content">
+                    <div class="result-content" data-aos="fade-right" data-aos-delay="0" data-aos-duration="500">
                         <span>FEEL THE SATISFACTION</span>
                         <h2 class="main-heading"><span>Get VEHICLER RESULT </span> to save <br> your money before buying and selling</h2>
                         <p>Gain access to comprehensive local and international vehicle histories with just a click – don’t let hidden surprises compromise your investment in a used car.</p>
@@ -213,7 +213,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12">
-                    <div class="resul-mask">
+                    <div class="resul-mask" data-aos="fade-left" data-aos-delay="200" data-aos-duration="500">
 
                         <div class="result-swiper swiper">
                             <div class="swiper-wrapper">
@@ -260,7 +260,7 @@
     <!-- contact-us-section -->
     <section class="contact-us-sec">
         <div class="container">
-            <div class="contact-us-sec-content">
+            <div class="contact-us-sec-content" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
                 <span>Have questions or need assistance? Our team is here to help! </span>
                 <h2 class="main-heading">WHAT OUR CLIENTS SAY</h2>
                 <a href="" class="btn-theme">Contact Us</a>
@@ -271,15 +271,15 @@
     <!-- contact-us-section end-->
 
     <!-- Testi Start -->
-    <section class="testi">
+    <section class="testi home-testi">
         <div class="container">
-            <div class="test-heading">
+            <div class="test-heading" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500">
                 <h2 class="main-heading">WHAT OUR CLIENTS SAY</h2>
                 <p>Find out what our respected customers think about their interaction with Vehicle Result. From new car owners to experienced car lovers, our customers talk about their feelings of assurance, reliability, and contentment.</p>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -289,7 +289,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -299,7 +299,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -309,7 +309,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -319,7 +319,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
@@ -329,7 +329,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="testi-card">
+                    <div class="testi-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                         <p>
                             "VehicleResult made my car buying experience so much easier! The report was detailed and accurate, helping me avoid potential pitfalls. I felt confident in my purchase." </p>
                         <div class="testi-card-name">
