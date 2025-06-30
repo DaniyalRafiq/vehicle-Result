@@ -4,7 +4,7 @@ $page = basename($_SERVER['PHP_SELF'], '.php');
 <header class="header">
     <nav class="navbar navbar-expand-xl navbar-dark stroke bg-transparent">
         <div class="container">
-            <a class="navbar-brand logo" href="#" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
+            <a class="navbar-brand logo" href="index" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
                 <img src="assets/images/logo.png" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"

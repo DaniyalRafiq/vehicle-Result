@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="img-box-content" data-aos="fade-right" data-aos-delay="200" data-aos-duration="500">
-                        <img src="assets/images/faq-img.jpg" alt="">
+                        <img src="assets/images/faq-img.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">

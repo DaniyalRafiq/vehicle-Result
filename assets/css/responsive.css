@@ -97,7 +97,7 @@ screen and (min-resolution: 120dpi) {}
     transform: translate(-50%, -50%);
     left: 50%;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -109,7 +109,7 @@ screen and (min-resolution: 120dpi) {}
   }
 
   section.provide {
-    padding: 50px;
+    padding: 50px 0;
   }
 
   .advantages-heading {
@@ -217,6 +217,46 @@ screen and (min-resolution: 120dpi) {}
   .get-quote-bg>.row {
     flex-direction: column-reverse;
     gap: 20px;
+  }
+
+
+
+  section.out-come .img-box-content {
+    display: none;
+  }
+
+  section.out-come .img-box-content {
+    display: none;
+  }
+
+  .footer-bottom-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-bottom-links a {
+    color: white;
+    font-size: 13px;
+  }
+
+  .footer-bottom-links a {
+    font-size: 11px;
+  }
+
+  a.navbar-brand.logo {
+    width: 120px;
+  }
+
+  section {
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  section::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Edge */
   }
 }
 

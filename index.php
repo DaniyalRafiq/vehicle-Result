@@ -115,7 +115,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a href="#" class="provide-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
+                            <a href="bike-report" class="provide-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                                 <div class="img-box-content">
                                     <img src="assets/images/provide-img-1.png" alt="">
                                 </div>
@@ -123,7 +123,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a href="#" class="provide-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
+                            <a href="car-report" class="provide-card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500">
                                 <div class="img-box-content">
                                     <img src="assets/images/provide-img-2.png" alt="">
                                 </div>
@@ -131,7 +131,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a href="#" class="provide-card" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
+                            <a href="hd-truck-report" class="provide-card" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
                                 <div class="img-box-content">
                                     <img src="assets/images/provide-img-3.png" alt="">
                                 </div>
@@ -139,7 +139,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <a href="#" class="provide-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
+                            <a href="rv-report" class="provide-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
                                 <div class="img-box-content">
                                     <img src="assets/images/provide-img-4.png" alt="">
                                 </div>
@@ -263,7 +263,7 @@
             <div class="contact-us-sec-content" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="500">
                 <span>Have questions or need assistance? Our team is here to help! </span>
                 <h2 class="main-heading">WHAT OUR CLIENTS SAY</h2>
-                <a href="" class="btn-theme">Contact Us</a>
+                <a href="contact-us" class="btn-theme">Contact Us</a>
 
             </div>
         </div>

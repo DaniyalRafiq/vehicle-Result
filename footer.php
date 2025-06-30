@@ -3,7 +3,7 @@
         <div class="row mt-0 pt-4 pb-4">
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
                 <div class="footer-logo">
-                    <a class="navbar-brand logo" href="#">
+                    <a class="navbar-brand logo" href="index">
                         <img src="assets/images/logo.png" />
                     </a>
 
@@ -13,11 +13,10 @@
                 <div class="footer-links m-mt-40">
                     <h6>Quick Links</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#"> Home</a></li>
-                        <li><a href="#"> About Us</a></li>
-                        <li><a href="#"> Vehicle Report</a></li>
-                        <li><a href="#"> FAQ'S</a></li>
-                        <li><a href="#"> Contact Us</a></li>
+                        <li><a href="index"> Home</a></li>
+                        <li><a href="about-us"> About Us</a></li>
+                        <li><a href="faq"> FAQ'S</a></li>
+                        <li><a href="contact-us"> Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -25,10 +24,10 @@
                 <div class="footer-links m-mt-40">
                     <h6>Services</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#"> Bike Report</a></li>
-                        <li><a href="#"> Car Report</a></li>
-                        <li><a href="mailto:info@example.com">HD Truck Report</a></li>
-                        <li><a href="#">RV Report</a></li>
+                        <li><a href="bike-report"> Bike Report</a></li>
+                        <li><a href="car-report"> Car Report</a></li>
+                        <li><a href="hd-truck-report">HD Truck Report</a></li>
+                        <li><a href="rv-report">RV Report</a></li>
                     </ul>
                 </div>
             </div>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car Report</title>
+    <title>Bike Report</title>
     <?php include 'links.php' ?>
 </head>
 
@@ -15,7 +15,7 @@
     <!-- End header -->
 
     <!-- section banner -->
-    <section class="hero other-page-hero about-us-hero">
+    <section class="hero other-page-hero bike-hero about-us-hero">
         <div class="container">
             <div class="hero-content" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">
                 <h1>Get Bike <br> <span>Vehicle Report</span></h1>

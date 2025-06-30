@@ -46,25 +46,25 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="img-box-content">
-                                        <img src="assets/images/bike-report-1.png" alt="">
+                                        <img src="assets/images/car-report-1.png" alt="">
 
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="img-box-content">
-                                        <img src="assets/images/bike-report-2.png" alt="">
+                                        <img src="assets/images/car-report-2.png" alt="">
 
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="img-box-content">
-                                        <img src="assets/images/bike-report-1.png" alt="">
+                                        <img src="assets/images/car-report-1.png" alt="">
 
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="img-box-content">
-                                        <img src="assets/images/bike-report-2.png" alt="">
+                                        <img src="assets/images/car-report-2.png" alt="">
 
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="img-box-content" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
-                        <img src="assets/images/find-out-card-img-1.png" alt="">
+                        <img src="assets/images/car-card-img-1.png" alt="">
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="img-box-content" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
-                        <img src="assets/images/find-out-card-img-2.png" alt="">
+                        <img src="assets/images/car-card-img-2.png" alt="">
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="img-box-content" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="500">
-                        <img src="assets/images/find-out-card-img-3.png" alt="">
+                        <img src="assets/images/car-card-img-3.png" alt="">
                     </div>
                 </div>
             </div>

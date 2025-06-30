@@ -764,6 +764,8 @@ ul.dropdown-menu {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .hero-content h1,
@@ -834,8 +836,9 @@ section.provide {
 }
 
 .provide-content .img-box-content {
-  filter: brightness(88%) contrast(100%) saturate(164%) blur(0px) hue-rotate(324deg);
+  /* filter: brightness(88%) contrast(100%) saturate(164%) blur(0px) hue-rotate(324deg); */
   height: 100%;
+  position: relative;
 }
 
 .provide-card {
@@ -1708,3 +1711,28 @@ ul.dropdown-menu.show {
 section.testi.home-testi {
   padding-top: 50px;
 }
+
+.provide-content .img-box-content:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #fbfbfb;
+  left: 0;
+}
+
+.provide-content .img-box-content img {
+  position: relative;
+  z-index: 44;
+}
+
+.bike-hero {
+  background-image: url(../images/bike-hero-bg.jpg);
+}
+
+.truck-bg {
+  background-image: url(../images/truck-bg.jpg);
+}
+.rv-hero {
+  background-image: url(../images/rv-hero-bg.jpg);
+}   
